@@ -1,4 +1,6 @@
 <?php
+print "Hello, Worldmmmmmmmmmmmmmmmmmmmmm222222222222222222222222222222mmmmmmmmmmmmmmmmm! php version is " . PHP_VERSION . "\n";
+
 $a=  preg_replace('~.*?\?~', '', $_SERVER['REQUEST_URI']);
 parse_str($a, $output);
 
